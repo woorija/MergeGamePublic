@@ -1,0 +1,567 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ccbf74396e24b439a4e4a9739896c7, type: 3}
+  m_Name: DailyMissionTableSO
+  m_EditorClassIdentifier: Assembly-CSharp::DailyMissionTableSO
+  templates:
+  - missionType: 0
+    targetCount: 30
+    rewardPool:
+    - rewardType: 0
+      amount: 5
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 10
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 2
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 10
+      item:
+        category: 0
+        level: 0
+  - missionType: 0
+    targetCount: 60
+    rewardPool:
+    - rewardType: 0
+      amount: 12
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 25
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 6
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 30
+      item:
+        category: 0
+        level: 0
+  - missionType: 0
+    targetCount: 100
+    rewardPool:
+    - rewardType: 0
+      amount: 30
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 10
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 50
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 50
+      item:
+        category: 0
+        level: 0
+  - missionType: 1
+    targetCount: 3
+    rewardPool:
+    - rewardType: 0
+      amount: 4
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 8
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 1
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 8
+      item:
+        category: 0
+        level: 0
+  - missionType: 1
+    targetCount: 7
+    rewardPool:
+    - rewardType: 0
+      amount: 11
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 21
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 5
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 20
+      item:
+        category: 0
+        level: 0
+  - missionType: 1
+    targetCount: 12
+    rewardPool:
+    - rewardType: 0
+      amount: 20
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 40
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 10
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 40
+      item:
+        category: 0
+        level: 0
+  - missionType: 2
+    targetCount: 1
+    rewardPool:
+    - rewardType: 0
+      amount: 8
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 15
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 3
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 15
+      item:
+        category: 0
+        level: 0
+  - missionType: 2
+    targetCount: 3
+    rewardPool:
+    - rewardType: 0
+      amount: 18
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 35
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 9
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 35
+      item:
+        category: 0
+        level: 0
+  - missionType: 2
+    targetCount: 5
+    rewardPool:
+    - rewardType: 0
+      amount: 30
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 60
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 15
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 60
+      item:
+        category: 0
+        level: 0
+  - missionType: 3
+    targetCount: 3
+    rewardPool:
+    - rewardType: 0
+      amount: 5
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 1
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 10
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 10
+      item:
+        category: 0
+        level: 0
+  - missionType: 3
+    targetCount: 5
+    rewardPool:
+    - rewardType: 0
+      amount: 10
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 20
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 3
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 10
+      item:
+        category: 0
+        level: 0
+  - missionType: 3
+    targetCount: 10
+    rewardPool:
+    - rewardType: 0
+      amount: 20
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 40
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 7
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 40
+      item:
+        category: 0
+        level: 0
+  - missionType: 4
+    targetCount: 3
+    rewardPool:
+    - rewardType: 0
+      amount: 5
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 10
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 1
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 10
+      item:
+        category: 0
+        level: 0
+  - missionType: 4
+    targetCount: 5
+    rewardPool:
+    - rewardType: 0
+      amount: 10
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 20
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 3
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 20
+      item:
+        category: 0
+        level: 0
+  - missionType: 4
+    targetCount: 10
+    rewardPool:
+    - rewardType: 0
+      amount: 20
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 40
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 7
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 40
+      item:
+        category: 0
+        level: 0
+  - missionType: 5
+    targetCount: 50
+    rewardPool:
+    - rewardType: 0
+      amount: 10
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 20
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 3
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 20
+      item:
+        category: 0
+        level: 0
+  - missionType: 5
+    targetCount: 150
+    rewardPool:
+    - rewardType: 0
+      amount: 25
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 50
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 7
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 50
+      item:
+        category: 0
+        level: 0
+  - missionType: 5
+    targetCount: 300
+    rewardPool:
+    - rewardType: 0
+      amount: 50
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 100
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 75
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 100
+      item:
+        category: 0
+        level: 0
+  - missionType: 6
+    targetCount: 50
+    rewardPool:
+    - rewardType: 0
+      amount: 8
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 15
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 2
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 15
+      item:
+        category: 0
+        level: 0
+  - missionType: 6
+    targetCount: 150
+    rewardPool:
+    - rewardType: 0
+      amount: 20
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 40
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 5
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 40
+      item:
+        category: 0
+        level: 0
+  - missionType: 6
+    targetCount: 300
+    rewardPool:
+    - rewardType: 0
+      amount: 40
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 80
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 10
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 80
+      item:
+        category: 0
+        level: 0
+  - missionType: 7
+    targetCount: 20
+    rewardPool:
+    - rewardType: 0
+      amount: 5
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 10
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 2
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 10
+      item:
+        category: 0
+        level: 0
+  - missionType: 7
+    targetCount: 50
+    rewardPool:
+    - rewardType: 0
+      amount: 12
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 25
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 5
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 25
+      item:
+        category: 0
+        level: 0
+  - missionType: 7
+    targetCount: 100
+    rewardPool:
+    - rewardType: 0
+      amount: 25
+      item:
+        category: 0
+        level: 0
+    - rewardType: 1
+      amount: 50
+      item:
+        category: 0
+        level: 0
+    - rewardType: 2
+      amount: 10
+      item:
+        category: 0
+        level: 0
+    - rewardType: 3
+      amount: 50
+      item:
+        category: 0
+        level: 0

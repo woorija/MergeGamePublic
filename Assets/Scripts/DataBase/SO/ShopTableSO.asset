@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 847f5a46067d60348bc54351127954a9, type: 3}
+  m_Name: ShopTableSO
+  m_EditorClassIdentifier: Assembly-CSharp::ShopTableSO
+  lowItemDatas:
+  - category: 1
+    level: 1
+    priceType: 0
+    price: 5
+  - category: 1
+    level: 2
+    priceType: 0
+    price: 10
+  - category: 1
+    level: 3
+    priceType: 0
+    price: 15
+  - category: 1
+    level: 4
+    priceType: 0
+    price: 25
+  - category: 2
+    level: 1
+    priceType: 0
+    price: 20
+  - category: 2
+    level: 2
+    priceType: 0
+    price: 30
+  - category: 3
+    level: 1
+    priceType: 0
+    price: 5
+  - category: 3
+    level: 2
+    priceType: 0
+    price: 10
+  - category: 3
+    level: 3
+    priceType: 0
+    price: 15
+  - category: 3
+    level: 4
+    priceType: 0
+    price: 25
+  - category: 4
+    level: 1
+    priceType: 0
+    price: 20
+  - category: 4
+    level: 2
+    priceType: 0
+    price: 30
+  - category: 5
+    level: 1
+    priceType: 0
+    price: 5
+  - category: 5
+    level: 2
+    priceType: 0
+    price: 10
+  - category: 5
+    level: 3
+    priceType: 0
+    price: 15
+  - category: 5
+    level: 4
+    priceType: 0
+    price: 30
+  - category: 6
+    level: 1
+    priceType: 0
+    price: 20
+  - category: 6
+    level: 2
+    priceType: 0
+    price: 40
+  - category: 1001
+    level: 1
+    priceType: 0
+    price: 50
+  - category: 1002
+    level: 1
+    priceType: 0
+    price: 55
+  - category: 1003
+    level: 1
+    priceType: 0
+    price: 60
+  - category: 5001
+    level: 1
+    priceType: 0
+    price: 125
+  - category: 5002
+    level: 1
+    priceType: 0
+    price: 140
+  - category: 5003
+    level: 1
+    priceType: 0
+    price: 150
+  middleItemDatas:
+  - category: 1
+    level: 5
+    priceType: 1
+    price: 10
+  - category: 1
+    level: 6
+    priceType: 1
+    price: 18
+  - category: 1
+    level: 7
+    priceType: 1
+    price: 35
+  - category: 2
+    level: 3
+    priceType: 1
+    price: 12
+  - category: 2
+    level: 4
+    priceType: 1
+    price: 23
+  - category: 3
+    level: 5
+    priceType: 1
+    price: 11
+  - category: 3
+    level: 6
+    priceType: 1
+    price: 21
+  - category: 3
+    level: 7
+    priceType: 1
+    price: 39
+  - category: 4
+    level: 3
+    priceType: 1
+    price: 14
+  - category: 4
+    level: 4
+    priceType: 1
+    price: 26
+  - category: 5
+    level: 5
+    priceType: 1
+    price: 11
+  - category: 5
+    level: 6
+    priceType: 1
+    price: 22
+  - category: 5
+    level: 7
+    priceType: 1
+    price: 42
+  - category: 6
+    level: 3
+    priceType: 1
+    price: 15
+  - category: 6
+    level: 4
+    priceType: 1
+    price: 27
+  - category: 1001
+    level: 2
+    priceType: 1
+    price: 18
+  - category: 1002
+    level: 2
+    priceType: 1
+    price: 20
+  - category: 1003
+    level: 2
+    priceType: 1
+    price: 22
+  - category: 5001
+    level: 2
+    priceType: 1
+    price: 48
+  - category: 5002
+    level: 2
+    priceType: 1
+    price: 53
+  - category: 5003
+    level: 2
+    priceType: 1
+    price: 57
+  highItemDatas:
+  - category: 1
+    level: 8
+    priceType: 1
+    price: 68
+  - category: 2
+    level: 5
+    priceType: 1
+    price: 44
+  - category: 3
+    level: 8
+    priceType: 1
+    price: 75
+  - category: 4
+    level: 5
+    priceType: 1
+    price: 47
+  - category: 5
+    level: 8
+    priceType: 1
+    price: 81
+  - category: 6
+    level: 5
+    priceType: 1
+    price: 52
+  - category: 1001
+    level: 3
+    priceType: 1
+    price: 34
+  - category: 1002
+    level: 3
+    priceType: 1
+    price: 38
+  - category: 1003
+    level: 3
+    priceType: 1
+    price: 41
+  - category: 5001
+    level: 3
+    priceType: 1
+    price: 91
+  - category: 5002
+    level: 3
+    priceType: 1
+    price: 100
+  - category: 5003
+    level: 3
+    priceType: 1
+    price: 109

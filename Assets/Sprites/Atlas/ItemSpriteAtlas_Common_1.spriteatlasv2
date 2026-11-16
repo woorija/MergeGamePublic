@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!612988286 &1
+SpriteAtlasAsset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 2
+  m_MasterAtlas: {fileID: 0}
+  m_ImporterData:
+    packables:
+    - {fileID: 2800000, guid: 8ea473df7242a14459edba26da968f31, type: 3}
+    - {fileID: 2800000, guid: 23bc660e27a3b514fb86ad7fd85bde26, type: 3}
+    - {fileID: 2800000, guid: d9f4d0b4585ca294897bb4bbf8372b7e, type: 3}
+    - {fileID: 2800000, guid: efd597a44f1578b499f8f76e2f7fd327, type: 3}
+    - {fileID: 2800000, guid: 023f89e1732026941acfb7b944c4bfd1, type: 3}
+    - {fileID: 2800000, guid: cc92d1c23457ee5478f035039407937f, type: 3}
+    - {fileID: 2800000, guid: e93515d23e987964986382fe5d714795, type: 3}
+    - {fileID: 2800000, guid: 2720b9d36da4d614384a5f9dbf13929f, type: 3}
+    - {fileID: 2800000, guid: 994d70d9812b14347a60c66bdf8b99c7, type: 3}
+    - {fileID: 2800000, guid: 0d2bebc798af40143b37c80d8e725910, type: 3}
+    - {fileID: 2800000, guid: 2503eba2b4c23b84db2e91e4f85aec0a, type: 3}
+    - {fileID: 2800000, guid: 23f3d12bdac8b3f4bab692bf4751b50d, type: 3}
+    - {fileID: 2800000, guid: eca48deb0a720424e9ac72b0b0ce57b6, type: 3}
+    - {fileID: 2800000, guid: eb73f144952dfc041ab2e5008c965779, type: 3}
+    - {fileID: 2800000, guid: 02a8cb932d9a90a44a30930f84b37800, type: 3}
+    - {fileID: 2800000, guid: 02802c44d48598648b1577e9b3f86643, type: 3}
+    - {fileID: 2800000, guid: a51840f6577873847ac32ee3f05f65a7, type: 3}
+    - {fileID: 2800000, guid: a0db7608094ef854286144177b40a046, type: 3}
+    - {fileID: 2800000, guid: 176640632c9ad0f478a2bdd893ef55bb, type: 3}
+    - {fileID: 2800000, guid: 96eefa6e25736764aac955bd6238a119, type: 3}
+    - {fileID: 2800000, guid: d49fe6d5f0414b644b48cf9c30e885b0, type: 3}
+    - {fileID: 2800000, guid: 6851553c34a8f8b459a8d316b20a0846, type: 3}
+    - {fileID: 2800000, guid: 58f7b3752c2b1154793c7ebc21184858, type: 3}
+    - {fileID: 2800000, guid: 3915a91baaabe7b4ba0c17cff9d46744, type: 3}
+    - {fileID: 2800000, guid: 7f761fc9956aa8e439b140932cc43595, type: 3}
+    - {fileID: 2800000, guid: 014f4d1798005e8488eef8ab79b4efb2, type: 3}
+    - {fileID: 2800000, guid: e036f2e670c400140ac0d7dc89e5a993, type: 3}
+    - {fileID: 2800000, guid: 408ea9ae30ce2a34487212c83a53bf75, type: 3}
+    - {fileID: 2800000, guid: 865b4f39088b89e478fac1e89ae22a29, type: 3}
+    - {fileID: 2800000, guid: 9e687bf2922d97940be898c23d588f62, type: 3}
+    - {fileID: 2800000, guid: 330723ecb07e398478499fc2623d742f, type: 3}
+    - {fileID: 2800000, guid: 9de627ca1c2f21d4c9e7303d49061e5c, type: 3}
+    - {fileID: 2800000, guid: fe1d8e1dc4458ce4294ecd108d7c9e60, type: 3}
+    - {fileID: 2800000, guid: 84beccd7290c11242a02ea83c7b37b03, type: 3}
+    - {fileID: 2800000, guid: d2f605c5033a32f498893223bcc5d0d6, type: 3}
+    - {fileID: 2800000, guid: 92633ab0f6faa39408da8c775f5aeda7, type: 3}
+    - {fileID: 2800000, guid: ae8c389462d1d3e49b889e3c20b06e17, type: 3}
+    - {fileID: 2800000, guid: 7f410d3c9f2b7ba44b60885dfaee5e1c, type: 3}
+    - {fileID: 2800000, guid: f8cc7d71c19550d498531c6fcc4ae9ed, type: 3}
+    - {fileID: 2800000, guid: fdfc7ff9438b7484e826e148d4203f4e, type: 3}
+    - {fileID: 2800000, guid: 4f9d938dd0cc9f447a77f5fed4a8eb9e, type: 3}
+    - {fileID: 2800000, guid: bb9014fade2cfaa44ad2a5b9e34c6937, type: 3}
+    - {fileID: 2800000, guid: 62f167c3b8d2a534789a3aa885e46f73, type: 3}
+    - {fileID: 2800000, guid: 1ecbc6fd8ce93c842aec2689afbd029f, type: 3}
+    - {fileID: 2800000, guid: fec3c1694b3e8c14181bfecb5230a503, type: 3}
+    - {fileID: 2800000, guid: 913f57de2c70b404ab88ae22be0c9038, type: 3}
+    - {fileID: 2800000, guid: 4c60bfb3cf0dbe44184b257d5fe4afbb, type: 3}
+    - {fileID: 2800000, guid: 7098e5e9052f07842bcea212c60492da, type: 3}
+    - {fileID: 2800000, guid: 21a06701eb53fb44c85830abaf96441e, type: 3}
+  m_IsVariant: 0
+  m_ScriptablePacker: {fileID: 0}

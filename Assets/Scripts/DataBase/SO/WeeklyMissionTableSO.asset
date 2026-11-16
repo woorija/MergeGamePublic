@@ -1,0 +1,366 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c70c39400231b6945be02c964d9e2e30, type: 3}
+  m_Name: WeeklyMissionTableSO
+  m_EditorClassIdentifier: Assembly-CSharp::WeeklyMissionTableSO
+  scoreRewardTable:
+  - requiredScore: 100
+    reward:
+      rewardType: 3
+      amount: 80
+      item:
+        category: 10003
+        level: 80
+  - requiredScore: 200
+    reward:
+      rewardType: 4
+      amount: 0
+      item:
+        category: 10002
+        level: 3
+  - requiredScore: 300
+    reward:
+      rewardType: 3
+      amount: 150
+      item:
+        category: 0
+        level: 0
+  - requiredScore: 400
+    reward:
+      rewardType: 4
+      amount: 0
+      item:
+        category: 5001
+        level: 3
+  - requiredScore: 500
+    reward:
+      rewardType: 2
+      amount: 30
+      item:
+        category: 0
+        level: 0
+  table:
+  - missionType: 0
+    targetCount: 50
+    score: 10
+    reward:
+      rewardType: 3
+      amount: 25
+      item:
+        category: 0
+        level: 0
+  - missionType: 1
+    targetCount: 5
+    score: 10
+    reward:
+      rewardType: 0
+      amount: 20
+      item:
+        category: 0
+        level: 0
+  - missionType: 4
+    targetCount: 1
+    score: 10
+    reward:
+      rewardType: 1
+      amount: 30
+      item:
+        category: 0
+        level: 0
+  - missionType: 7
+    targetCount: 20
+    score: 10
+    reward:
+      rewardType: 4
+      amount: 0
+      item:
+        category: 5001
+        level: 1
+  - missionType: 3
+    targetCount: 5
+    score: 10
+    reward:
+      rewardType: 2
+      amount: 1
+      item:
+        category: 0
+        level: 0
+  - missionType: 3
+    targetCount: 8
+    score: 10
+    reward:
+      rewardType: 2
+      amount: 5
+      item:
+        category: 0
+        level: 0
+  - missionType: 1
+    targetCount: 8
+    score: 10
+    reward:
+      rewardType: 0
+      amount: 10
+      item:
+        category: 0
+        level: 0
+  - missionType: 6
+    targetCount: 100
+    score: 10
+    reward:
+      rewardType: 3
+      amount: 30
+      item:
+        category: 0
+        level: 0
+  - missionType: 0
+    targetCount: 100
+    score: 10
+    reward:
+      rewardType: 2
+      amount: 5
+      item:
+        category: 0
+        level: 0
+  - missionType: 4
+    targetCount: 10
+    score: 10
+    reward:
+      rewardType: 1
+      amount: 50
+      item:
+        category: 0
+        level: 0
+  - missionType: 2
+    targetCount: 3
+    score: 15
+    reward:
+      rewardType: 2
+      amount: 5
+      item:
+        category: 0
+        level: 0
+  - missionType: 1
+    targetCount: 12
+    score: 15
+    reward:
+      rewardType: 3
+      amount: 30
+      item:
+        category: 0
+        level: 0
+  - missionType: 0
+    targetCount: 200
+    score: 15
+    reward:
+      rewardType: 4
+      amount: 0
+      item:
+        category: 5002
+        level: 1
+  - missionType: 3
+    targetCount: 15
+    score: 15
+    reward:
+      rewardType: 1
+      amount: 50
+      item:
+        category: 0
+        level: 0
+  - missionType: 5
+    targetCount: 200
+    score: 15
+    reward:
+      rewardType: 0
+      amount: 20
+      item:
+        category: 0
+        level: 0
+  - missionType: 0
+    targetCount: 200
+    score: 15
+    reward:
+      rewardType: 2
+      amount: 8
+      item:
+        category: 0
+        level: 0
+  - missionType: 1
+    targetCount: 15
+    score: 15
+    reward:
+      rewardType: 1
+      amount: 30
+      item:
+        category: 0
+        level: 0
+  - missionType: 7
+    targetCount: 100
+    score: 15
+    reward:
+      rewardType: 1
+      amount: 50
+      item:
+        category: 0
+        level: 0
+  - missionType: 2
+    targetCount: 5
+    score: 15
+    reward:
+      rewardType: 2
+      amount: 10
+      item:
+        category: 0
+        level: 0
+  - missionType: 6
+    targetCount: 300
+    score: 15
+    reward:
+      rewardType: 0
+      amount: 30
+      item:
+        category: 0
+        level: 0
+  - missionType: 3
+    targetCount: 15
+    score: 20
+    reward:
+      rewardType: 4
+      amount: 0
+      item:
+        category: 5001
+        level: 2
+  - missionType: 4
+    targetCount: 20
+    score: 20
+    reward:
+      rewardType: 1
+      amount: 80
+      item:
+        category: 0
+        level: 0
+  - missionType: 0
+    targetCount: 250
+    score: 20
+    reward:
+      rewardType: 3
+      amount: 70
+      item:
+        category: 0
+        level: 0
+  - missionType: 7
+    targetCount: 150
+    score: 20
+    reward:
+      rewardType: 1
+      amount: 50
+      item:
+        category: 0
+        level: 0
+  - missionType: 5
+    targetCount: 300
+    score: 20
+    reward:
+      rewardType: 2
+      amount: 5
+      item:
+        category: 0
+        level: 0
+  - missionType: 1
+    targetCount: 20
+    score: 20
+    reward:
+      rewardType: 2
+      amount: 5
+      item:
+        category: 0
+        level: 0
+  - missionType: 0
+    targetCount: 300
+    score: 20
+    reward:
+      rewardType: 1
+      amount: 100
+      item:
+        category: 0
+        level: 0
+  - missionType: 6
+    targetCount: 400
+    score: 20
+    reward:
+      rewardType: 2
+      amount: 8
+      item:
+        category: 0
+        level: 0
+  - missionType: 7
+    targetCount: 200
+    score: 20
+    reward:
+      rewardType: 3
+      amount: 80
+      item:
+        category: 0
+        level: 0
+  - missionType: 2
+    targetCount: 7
+    score: 20
+    reward:
+      rewardType: 0
+      amount: 50
+      item:
+        category: 0
+        level: 0
+  - missionType: 0
+    targetCount: 400
+    score: 25
+    reward:
+      rewardType: 0
+      amount: 50
+      item:
+        category: 0
+        level: 0
+  - missionType: 1
+    targetCount: 25
+    score: 25
+    reward:
+      rewardType: 1
+      amount: 100
+      item:
+        category: 0
+        level: 0
+  - missionType: 5
+    targetCount: 500
+    score: 25
+    reward:
+      rewardType: 3
+      amount: 50
+      item:
+        category: 0
+        level: 0
+  - missionType: 3
+    targetCount: 20
+    score: 25
+    reward:
+      rewardType: 4
+      amount: 0
+      item:
+        category: 10002
+        level: 4
+  - missionType: 6
+    targetCount: 500
+    score: 25
+    reward:
+      rewardType: 2
+      amount: 10
+      item:
+        category: 0
+        level: 0

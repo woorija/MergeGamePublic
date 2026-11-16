@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: AtlasGroup
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: AtlasGroup
+  m_GUID: 0cf041f79a6128a4eaeb5ed9fed69c15
+  m_SerializeEntries:
+  - m_GUID: 057fa4bf3c848b14ca60f1fbf966292d
+    m_Address: ItemSpriteAtlas_Reward
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Atlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ba07975a99af88419cc52bbcf040d26
+    m_Address: ItemOverlaySpriteAtlas
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Atlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5503e5985bab6234d99d467a27801c4a
+    m_Address: ItemSpriteAtlas_Common_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Atlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b89858a7e9a4f14bbe068538a68851a
+    m_Address: BoardSlotAtlas
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Atlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91ecbe3733c8e314793999869a0630f3
+    m_Address: NPCPortraitAtlas
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Atlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4abbe2b01f53c74fa385729eb63150b
+    m_Address: ItemSpriteAtlas_Common_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Atlas
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4b3f9fe019da0543875ad0a5c7738a7
+    m_Address: ItemSpriteAtlas_Gift_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Atlas
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 4c32f785fbb0efc4d9f15388d06ce5b5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 743c3c6d4dbf5d54db17c732d386cfca, type: 2}
+    - {fileID: 11400000, guid: 7821b870338709842b1c914b350fbbb6, type: 2}

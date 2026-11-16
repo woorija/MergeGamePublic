@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: FactoryDataGroup
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: FactoryDataGroup
+  m_GUID: aa06da9de2aa470439f0ccec28353124
+  m_SerializeEntries:
+  - m_GUID: 4c3f6ec8b0b2c59488d59b5e231a5176
+    m_Address: ManaFactorySpawnData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - FactoryData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52231fd9ac489784984349c456f8ae95
+    m_Address: HealingLowGiftSpawnData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - FactoryData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7086968ed832ac54baf202bd7ce3b050
+    m_Address: RewardGiftBoxSpawnData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - FactoryData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 717c790cdd9042f4a117ccacbef8f4f3
+    m_Address: StaminaLowGiftSpawnData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - FactoryData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98cc77d731eb92b4fbfefc0c16d2b172
+    m_Address: HealingFactorySpawnData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - FactoryData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c42e2f91a64245aa814b44d9c31c31fb
+    m_Address: StaminaFactorySpawnData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - FactoryData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfcc02477fe2ad4469aa6c297d303802
+    m_Address: ManaLowGiftSpawnData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - FactoryData
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 4c32f785fbb0efc4d9f15388d06ce5b5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 088a1a58dc749c148ac15a4e1a340906, type: 2}
+    - {fileID: 11400000, guid: 3eefd05fe3627884c9a6dd5b65d9982f, type: 2}

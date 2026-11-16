@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: DataBaseGroup
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: DataBaseGroup
+  m_GUID: eec44c409c7b27a408e98cd60192fe7a
+  m_SerializeEntries:
+  - m_GUID: 03e8ed6c5654e8147a943c532900cbfc
+    m_Address: SpecialItemStatTableSO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DataBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08aa233715edf584c8bce437d8a62798
+    m_Address: ShopTableSO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DataBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1fde427e386a44145a26c13a7aedab7f
+    m_Address: DailyMissionTableSO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DataBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49abc5b286fa1dc4f8ee1ab320f6209c
+    m_Address: OrderRuleLevelTableSO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DataBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59cb95ac6b986294480270d016268797
+    m_Address: ItemStatTableSO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DataBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6bc1b310c3263614981c26b985bfae00
+    m_Address: ItemAtlasTableSO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DataBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97f58be9d442b994abb0971b9989bb83
+    m_Address: ItemNameTableSO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DataBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c568ea743dfd1cf43a3a2df152234516
+    m_Address: OrderRewardTableSO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DataBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c76f93552affd7849b755ad7e695b6b1
+    m_Address: LevelUpRewardTableSO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DataBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7b10c24e928ecb44a7baa08a5cc4498
+    m_Address: RewardTableSO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DataBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dccc29be1212ec84abd44265b9c2ec29
+    m_Address: WeeklyMissionTier1TableSO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DataBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfa2028895e3033438cf158e91fe0bb0
+    m_Address: BubblePriceTableSO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DataBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f96cc069c10550c498a7866ed17e1d22
+    m_Address: XpTableSO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DataBase
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9823f1bbfb4f6349982a486aef87bdf
+    m_Address: ItemMaxLevelTableSO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DataBase
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 4c32f785fbb0efc4d9f15388d06ce5b5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7e6431b328ab43e4bbbb7c3fc5717a3e, type: 2}
+    - {fileID: 11400000, guid: ba08cdf90a339a6478f16ff47f6c5ebd, type: 2}

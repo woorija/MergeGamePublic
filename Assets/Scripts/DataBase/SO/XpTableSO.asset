@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af0ed3c0ff490f446868f192afaf5622, type: 3}
+  m_Name: XpTableSO
+  m_EditorClassIdentifier: Assembly-CSharp::XpTableSO
+  xpTable:
+  - 2
+  - 6
+  - 10
+  - 13
+  - 33
+  - 39
+  - 46
+  - 53
+  - 59
+  - 76
+  - 84
+  - 154
+  - 166
+  - 179
+  - 371
+  - 396
+  - 421
+  - 601
+  - 635
+  - 728
+  - 764
+  - 801
+  - 837
+  - 873
+  - 1232
+  - 1281
+  - 1331
+  - 1380
+  - 1429
+  - 2038
+  - 2106
+  - 2174
+  - 2242
+  - 2310
+  - 2559
+  - 2632
+  - 2705
+  - 2778
+  - 2851
+  - 4507
+  - 4619
+  - 4732
+  - 4845
+  - 4957
+  - 6070
+  - 6205
+  - 6340
+  - 6475
+  - 6609
+  - 8272
+  - 8437
+  - 8603
+  - 8768
+  - 8934
+  - 9099
+  - 9264
+  - 9430
+  - 9595
+  - 9761
+  - 9926

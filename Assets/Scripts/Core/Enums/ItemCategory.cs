@@ -1,0 +1,20 @@
+public enum ItemCategory
+{
+    None = 0,
+    HealingHerb = 1,
+    HealingFruit,
+    ManaHerb,
+    ManaFruit,
+    StaminaHerb,
+    StaminaFruit,
+    HealingFactory = 1001,
+    ManaFactory,
+    StaminaFactory,
+    HealingLowGift = 5001,
+    ManaLowGift,
+    StaminaLowGift,
+    RewardGiftBox,
+    Gold = 10001,
+    Gem,
+    Stamina,
+}

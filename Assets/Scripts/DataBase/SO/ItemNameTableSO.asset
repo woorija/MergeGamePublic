@@ -1,0 +1,318 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15711367a188c7d4ab62af6c170564f0, type: 3}
+  m_Name: ItemNameTableSO
+  m_EditorClassIdentifier: Assembly-CSharp::ItemNameTableSO
+  list:
+  - category: 1
+    level: 1
+    itemName: "\uCCB4\uB825 \uAF43\uC78E"
+  - category: 1
+    level: 2
+    itemName: "\uCCB4\uB825 \uAF43\uC78E \uBAA8\uC74C"
+  - category: 1
+    level: 3
+    itemName: "\uCCB4\uB825 \uAF43 \uBD84\uB9D0"
+  - category: 1
+    level: 4
+    itemName: "\uCD08\uC18C\uD615 \uCCB4\uB825\uD3EC\uC158"
+  - category: 1
+    level: 5
+    itemName: "\uC18C\uD615 \uCCB4\uB825\uD3EC\uC158"
+  - category: 1
+    level: 6
+    itemName: "\uCCB4\uB825\uD3EC\uC158"
+  - category: 1
+    level: 7
+    itemName: "\uB300\uD615 \uCCB4\uB825\uD3EC\uC158"
+  - category: 1
+    level: 8
+    itemName: "\uCD08\uB300\uD615 \uCCB4\uB825\uD3EC\uC158"
+  - category: 1
+    level: 9
+    itemName: "\uB18D\uCD95 \uCCB4\uB825\uD3EC\uC158"
+  - category: 1
+    level: 10
+    itemName: "\uD604\uC790\uC758 \uCCB4\uB825\uD3EC\uC158"
+  - category: 2
+    level: 1
+    itemName: "\uC791\uC740 \uCCB4\uB825\uC5F4\uB9E4"
+  - category: 2
+    level: 2
+    itemName: "\uD070 \uCCB4\uB825\uC5F4\uB9E4"
+  - category: 2
+    level: 3
+    itemName: "\uBC18\uACB0\uC815 \uCCB4\uB825\uC5F4\uB9E4"
+  - category: 2
+    level: 4
+    itemName: "\uC18C\uD615 \uCCB4\uB825 \uACB0\uC815"
+  - category: 2
+    level: 5
+    itemName: "\uCCB4\uB825 \uACB0\uC815"
+  - category: 2
+    level: 6
+    itemName: "\uB300\uD615 \uCCB4\uB825 \uACB0\uC815"
+  - category: 2
+    level: 7
+    itemName: "\uD604\uC790\uC758 \uCCB4\uB825 \uACB0\uC815"
+  - category: 3
+    level: 1
+    itemName: "\uB9C8\uB825 \uAF43\uC78E"
+  - category: 3
+    level: 2
+    itemName: "\uB9C8\uB825 \uAF43\uC78E \uBAA8\uC74C"
+  - category: 3
+    level: 3
+    itemName: "\uB9C8\uB825 \uAF43 "
+  - category: 3
+    level: 4
+    itemName: "\uCD08\uC18C\uD615 \uB9C8\uB825\uD3EC\uC158"
+  - category: 3
+    level: 5
+    itemName: "\uC18C\uD615 \uB9C8\uB825\uD3EC\uC158"
+  - category: 3
+    level: 6
+    itemName: "\uB9C8\uB825\uD3EC\uC158"
+  - category: 3
+    level: 7
+    itemName: "\uB300\uD615 \uB9C8\uB825\uD3EC\uC158"
+  - category: 3
+    level: 8
+    itemName: "\uCD08\uB300\uD615 \uB9C8\uB825\uD3EC\uC158"
+  - category: 3
+    level: 9
+    itemName: "\uB18D\uCD95 \uB9C8\uB825\uD3EC\uC158"
+  - category: 3
+    level: 10
+    itemName: "\uD604\uC790\uC758 \uB9C8\uB825\uD3EC\uC158"
+  - category: 4
+    level: 1
+    itemName: "\uC791\uC740 \uB9C8\uB825\uC5F4\uB9E4"
+  - category: 4
+    level: 2
+    itemName: "\uD070 \uB9C8\uB825\uC5F4\uB9E4"
+  - category: 4
+    level: 3
+    itemName: "\uBC18\uACB0\uC815 \uB9C8\uB825\uC5F4\uB9E4"
+  - category: 4
+    level: 4
+    itemName: "\uC18C\uD615 \uB9C8\uB825 \uACB0\uC815"
+  - category: 4
+    level: 5
+    itemName: "\uB9C8\uB825 \uACB0\uC815"
+  - category: 4
+    level: 6
+    itemName: "\uB300\uD615 \uB9C8\uB825 \uACB0\uC815"
+  - category: 4
+    level: 7
+    itemName: "\uD604\uC790\uC758 \uB9C8\uB825 \uACB0\uC815"
+  - category: 5
+    level: 1
+    itemName: "\uD65C\uB825 \uAF43\uC78E"
+  - category: 5
+    level: 2
+    itemName: "\uD65C\uB825 \uAF43\uC78E \uBAA8\uC74C"
+  - category: 5
+    level: 3
+    itemName: "\uD65C\uB825 \uAF43 \uBD84\uB9D0"
+  - category: 5
+    level: 4
+    itemName: "\uCD08\uC18C\uD615 \uD65C\uB825\uD3EC\uC158"
+  - category: 5
+    level: 5
+    itemName: "\uC18C\uD615 \uD65C\uB825\uD3EC\uC158"
+  - category: 5
+    level: 6
+    itemName: "\uD65C\uB825\uD3EC\uC158"
+  - category: 5
+    level: 7
+    itemName: "\uB300\uD615 \uD65C\uB825\uD3EC\uC158"
+  - category: 5
+    level: 8
+    itemName: "\uCD08\uB300\uD615 \uD65C\uB825\uD3EC\uC158"
+  - category: 5
+    level: 9
+    itemName: "\uB18D\uCD95 \uD65C\uB825\uD3EC\uC158"
+  - category: 5
+    level: 10
+    itemName: "\uD604\uC790\uC758 \uD65C\uB825\uD3EC\uC158"
+  - category: 6
+    level: 1
+    itemName: "\uC791\uC740 \uD65C\uB825\uC5F4\uB9E4"
+  - category: 6
+    level: 2
+    itemName: "\uD070 \uD65C\uB825\uC5F4\uB9E4"
+  - category: 6
+    level: 3
+    itemName: "\uBC18\uACB0\uC815 \uD65C\uB825\uC5F4\uB9E4"
+  - category: 6
+    level: 4
+    itemName: "\uC18C\uD615 \uD65C\uB825 \uACB0\uC815"
+  - category: 6
+    level: 5
+    itemName: "\uD65C\uB825 \uACB0\uC815"
+  - category: 6
+    level: 6
+    itemName: "\uB300\uD615 \uD65C\uB825 \uACB0\uC815"
+  - category: 6
+    level: 7
+    itemName: "\uD604\uC790\uC758 \uD65C\uB825 \uACB0\uC815"
+  - category: 1001
+    level: 1
+    itemName: "\uCCB4\uB825 \uC528\uC557"
+  - category: 1001
+    level: 2
+    itemName: "\uBC1C\uC544\uB41C \uCCB4\uB825 \uC528\uC557"
+  - category: 1001
+    level: 3
+    itemName: "\uCCB4\uB825 \uC0C8\uC2F9"
+  - category: 1001
+    level: 4
+    itemName: "\uCCB4\uB825 \uAF43"
+  - category: 1001
+    level: 5
+    itemName: "\uCCB4\uB825 \uD654\uBD84"
+  - category: 1001
+    level: 6
+    itemName: "\uB9C8\uBC95\uC758 \uCCB4\uB825 \uD654\uBD84"
+  - category: 1001
+    level: 7
+    itemName: "\uB300\uB9C8\uBC95\uC758 \uCCB4\uB825 \uD654\uBD84"
+  - category: 1001
+    level: 8
+    itemName: "\uD604\uC790\uC758 \uCCB4\uB825 \uD654\uBD84"
+  - category: 1002
+    level: 1
+    itemName: "\uB9C8\uB825 \uC528\uC557"
+  - category: 1002
+    level: 2
+    itemName: "\uBC1C\uC544\uB41C \uB9C8\uB825 \uC528\uC557"
+  - category: 1002
+    level: 3
+    itemName: "\uB9C8\uB825 \uC0C8\uC2F9"
+  - category: 1002
+    level: 4
+    itemName: "\uB9C8\uB825 \uAF43"
+  - category: 1002
+    level: 5
+    itemName: "\uB9C8\uB825 \uD654\uBD84"
+  - category: 1002
+    level: 6
+    itemName: "\uB9C8\uBC95\uC758 \uB9C8\uB825 \uD654\uBD84"
+  - category: 1002
+    level: 7
+    itemName: "\uB300\uB9C8\uBC95\uC758 \uB9C8\uB825 \uD654\uBD84"
+  - category: 1002
+    level: 8
+    itemName: "\uD604\uC790\uC758 \uB9C8\uB825 \uD654\uBD84"
+  - category: 1003
+    level: 1
+    itemName: "\uD65C\uB825 \uC528\uC557"
+  - category: 1003
+    level: 2
+    itemName: "\uBC1C\uC544\uB41C \uD65C\uB825 \uC528\uC557"
+  - category: 1003
+    level: 3
+    itemName: "\uD65C\uB825 \uC0C8\uC2F9"
+  - category: 1003
+    level: 4
+    itemName: "\uD65C\uB825 \uAF43"
+  - category: 1003
+    level: 5
+    itemName: "\uD65C\uB825 \uD654\uBD84"
+  - category: 1003
+    level: 6
+    itemName: "\uB9C8\uBC95\uC758 \uD65C\uB825 \uD654\uBD84"
+  - category: 1003
+    level: 7
+    itemName: "\uB300\uB9C8\uBC95\uC758 \uD65C\uB825 \uD654\uBD84"
+  - category: 1003
+    level: 8
+    itemName: "\uD604\uC790\uC758 \uD65C\uB825 \uD654\uBD84"
+  - category: 5001
+    level: 1
+    itemName: "\uC791\uC740 \uCCB4\uB825 \uC885\uC774\uBD09\uD22C"
+  - category: 5001
+    level: 2
+    itemName: "\uCCB4\uB825 \uC885\uC774\uBD09\uD22C"
+  - category: 5001
+    level: 3
+    itemName: "\uD3EC\uC7A5\uB41C \uCCB4\uB825 \uC885\uC774\uBD09\uD22C"
+  - category: 5002
+    level: 1
+    itemName: "\uC791\uC740 \uB9C8\uB098 \uC885\uC774\uBD09\uD22C"
+  - category: 5002
+    level: 2
+    itemName: "\uB9C8\uB098 \uC885\uC774\uBD09\uD22C"
+  - category: 5002
+    level: 3
+    itemName: "\uD3EC\uC7A5\uB41C \uB9C8\uB098 \uC885\uC774\uBD09\uD22C"
+  - category: 5003
+    level: 1
+    itemName: "\uC791\uC740 \uD65C\uB825 \uC885\uC774\uBD09\uD22C"
+  - category: 5003
+    level: 2
+    itemName: "\uD65C\uB825 \uC885\uC774\uBD09\uD22C"
+  - category: 5003
+    level: 3
+    itemName: "\uD3EC\uC7A5\uB41C \uD65C\uB825 \uC885\uC774\uBD09\uD22C"
+  - category: 5004
+    level: 1
+    itemName: "\uB0A1\uC740 \uC120\uBB3C\uC0C1\uC790"
+  - category: 5004
+    level: 2
+    itemName: "\uC120\uBB3C\uC0C1\uC790"
+  - category: 5004
+    level: 3
+    itemName: "\uD654\uB824\uD55C \uC120\uBB3C\uC0C1\uC790"
+  - category: 10001
+    level: 1
+    itemName: "\uAE08\uD654 1\uAC1C"
+  - category: 10001
+    level: 2
+    itemName: "\uAE08\uD654 2\uAC1C"
+  - category: 10001
+    level: 3
+    itemName: "\uAE08\uD654 3\uAC1C"
+  - category: 10001
+    level: 4
+    itemName: "\uAE08\uD654 4\uAC1C"
+  - category: 10001
+    level: 5
+    itemName: "\uAE08\uD654 \uB354\uBBF8"
+  - category: 10002
+    level: 1
+    itemName: "\uC82C 1\uAC1C"
+  - category: 10002
+    level: 2
+    itemName: "\uC82C 2\uAC1C"
+  - category: 10002
+    level: 3
+    itemName: "\uC82C 3\uAC1C"
+  - category: 10002
+    level: 4
+    itemName: "\uC82C \uB354\uBBF8"
+  - category: 10003
+    level: 1
+    itemName: "\uC2A4\uD0DC\uBBF8\uB108 \uAC00\uB8E8"
+  - category: 10003
+    level: 2
+    itemName: "\uC2A4\uD0DC\uBBF8\uB108 \uC870\uAC01"
+  - category: 10003
+    level: 3
+    itemName: "\uC2A4\uD0DC\uBBF8\uB108 \uACB0\uC815"
+  - category: 10003
+    level: 4
+    itemName: "\uC2A4\uD0DC\uBBF8\uB108 \uBCF4\uC11D"
+  - category: 10003
+    level: 5
+    itemName: "\uC644\uC131\uD615 \uC2A4\uD0DC\uBBF8\uB108"

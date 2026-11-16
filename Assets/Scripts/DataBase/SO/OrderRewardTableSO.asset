@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41053488f89aae94dac52cfd34254e2a, type: 3}
+  m_Name: OrderRewardTableSO
+  m_EditorClassIdentifier: Assembly-CSharp::OrderRewardTableSO
+  list:
+  - category: 1
+    level: 3
+    rewardWeight:
+      gold: 2
+      xp: 2
+  - category: 1
+    level: 4
+    rewardWeight:
+      gold: 4
+      xp: 4
+  - category: 1
+    level: 5
+    rewardWeight:
+      gold: 9
+      xp: 9
+  - category: 1
+    level: 6
+    rewardWeight:
+      gold: 18
+      xp: 19
+  - category: 1
+    level: 7
+    rewardWeight:
+      gold: 37
+      xp: 41
+  - category: 1
+    level: 8
+    rewardWeight:
+      gold: 76
+      xp: 86
+  - category: 1
+    level: 9
+    rewardWeight:
+      gold: 156
+      xp: 180
+  - category: 1
+    level: 10
+    rewardWeight:
+      gold: 320
+      xp: 378
+  - category: 2
+    level: 3
+    rewardWeight:
+      gold: 8
+      xp: 8
+  - category: 2
+    level: 4
+    rewardWeight:
+      gold: 17
+      xp: 18
+  - category: 2
+    level: 5
+    rewardWeight:
+      gold: 35
+      xp: 37
+  - category: 2
+    level: 6
+    rewardWeight:
+      gold: 72
+      xp: 78
+  - category: 2
+    level: 7
+    rewardWeight:
+      gold: 148
+      xp: 163
+  - category: 3
+    level: 3
+    rewardWeight:
+      gold: 2
+      xp: 2
+  - category: 3
+    level: 4
+    rewardWeight:
+      gold: 5
+      xp: 5
+  - category: 3
+    level: 5
+    rewardWeight:
+      gold: 10
+      xp: 10
+  - category: 3
+    level: 6
+    rewardWeight:
+      gold: 20
+      xp: 21
+  - category: 3
+    level: 7
+    rewardWeight:
+      gold: 41
+      xp: 45
+  - category: 3
+    level: 8
+    rewardWeight:
+      gold: 84
+      xp: 94
+  - category: 3
+    level: 9
+    rewardWeight:
+      gold: 171
+      xp: 198
+  - category: 3
+    level: 10
+    rewardWeight:
+      gold: 351
+      xp: 416
+  - category: 4
+    level: 3
+    rewardWeight:
+      gold: 9
+      xp: 9
+  - category: 4
+    level: 4
+    rewardWeight:
+      gold: 19
+      xp: 19
+  - category: 4
+    level: 5
+    rewardWeight:
+      gold: 39
+      xp: 41
+  - category: 4
+    level: 6
+    rewardWeight:
+      gold: 80
+      xp: 86
+  - category: 4
+    level: 7
+    rewardWeight:
+      gold: 163
+      xp: 180
+  - category: 5
+    level: 3
+    rewardWeight:
+      gold: 3
+      xp: 3
+  - category: 5
+    level: 4
+    rewardWeight:
+      gold: 5
+      xp: 6
+  - category: 5
+    level: 5
+    rewardWeight:
+      gold: 11
+      xp: 12
+  - category: 5
+    level: 6
+    rewardWeight:
+      gold: 23
+      xp: 24
+  - category: 5
+    level: 7
+    rewardWeight:
+      gold: 46
+      xp: 51
+  - category: 5
+    level: 8
+    rewardWeight:
+      gold: 95
+      xp: 107
+  - category: 5
+    level: 9
+    rewardWeight:
+      gold: 195
+      xp: 225
+  - category: 5
+    level: 10
+    rewardWeight:
+      gold: 399
+      xp: 473
+  - category: 6
+    level: 3
+    rewardWeight:
+      gold: 11
+      xp: 11
+  - category: 6
+    level: 4
+    rewardWeight:
+      gold: 22
+      xp: 22
+  - category: 6
+    level: 5
+    rewardWeight:
+      gold: 44
+      xp: 46
+  - category: 6
+    level: 6
+    rewardWeight:
+      gold: 90
+      xp: 97
+  - category: 6
+    level: 7
+    rewardWeight:
+      gold: 185
+      xp: 204
