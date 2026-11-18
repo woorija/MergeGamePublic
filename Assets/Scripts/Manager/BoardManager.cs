@@ -388,11 +388,14 @@ public class BoardManager : SingletonBehaviour<BoardManager>
         {
             if (CanMerge(from, to))
             {
+                // Blocked items are not included in itemCountTable. Capture this before
+                // changing the state to Item so the merge does not remove an uncounted target.
+                bool targetWasCounted = IsTargetCounted(to);
                 ItemData beforeItemData = new ItemData(itemDatas[to]);
                 boardStates[to] = BoardState.Item;
                 BoardUIManager.Instance.RefreshBoardOverlayImage(to, boardStates[to]).Forget();
                 BoardUIManager.Instance.Merge(to, beforeItemData, itemDatas[to]).Forget();
-                Merge(from, to);
+                Merge(from, to, targetWasCounted);
                 UnlockAdjacentHidden(to);
             }
             else
@@ -404,9 +407,10 @@ public class BoardManager : SingletonBehaviour<BoardManager>
         {
             if (CanMerge(from, to))
             {
+                bool targetWasCounted = IsTargetCounted(to);
                 ItemData beforeItemData = new ItemData(itemDatas[to]);
                 BoardUIManager.Instance.Merge(to, beforeItemData, itemDatas[to]).Forget();
-                Merge(from, to);
+                Merge(from, to, targetWasCounted);
             }
             else
             {
@@ -426,13 +430,13 @@ public class BoardManager : SingletonBehaviour<BoardManager>
         if (itemDatas[from].type == ItemType.Ice) return false;
         return true;
     }
-    void Merge(int from, int to)
+    void Merge(int from, int to, bool targetWasCounted)
     {
         ClearIndex(from);
 
         ItemData toItem = itemDatas[to];
 
-        if (IsRemoveTargetCount(to))
+        if (targetWasCounted)
         {
             RemoveItemCount(toItem);
         }
@@ -446,17 +450,9 @@ public class BoardManager : SingletonBehaviour<BoardManager>
         OnMerge?.Invoke(1);
         OnBoardChanged?.Invoke();
     }
-    bool IsRemoveTargetCount(int to)
+    bool IsTargetCounted(int index)
     {
-        if (boardStates[to] == BoardState.Blocked)
-        {
-            return false;
-        }
-        if (itemDatas[to].type == ItemType.Ice)
-        {
-            return false;
-        }
-        return true;
+        return boardStates[index] == BoardState.Item && IsCountable(itemDatas[index]);
     }
     void Swap(int from, int to)
     {

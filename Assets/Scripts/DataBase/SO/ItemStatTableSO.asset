@@ -291,28 +291,28 @@ MonoBehaviour:
   - category: 1001
     level: 4
     itemType: 2
-    triggerTime: 60
-    maxSpawnCount: 5
+    triggerTime: 180
+    maxSpawnCount: 60
   - category: 1001
     level: 5
     itemType: 2
     triggerTime: 180
-    maxSpawnCount: 100
+    maxSpawnCount: 60
   - category: 1001
     level: 6
     itemType: 2
     triggerTime: 180
-    maxSpawnCount: 100
+    maxSpawnCount: 60
   - category: 1001
     level: 7
     itemType: 2
     triggerTime: 180
-    maxSpawnCount: 100
+    maxSpawnCount: 60
   - category: 1001
     level: 8
     itemType: 2
     triggerTime: 180
-    maxSpawnCount: 100
+    maxSpawnCount: 60
   - category: 1002
     level: 1
     itemType: 2
@@ -372,27 +372,27 @@ MonoBehaviour:
     level: 4
     itemType: 2
     triggerTime: 180
-    maxSpawnCount: 50
+    maxSpawnCount: 45
   - category: 1003
     level: 5
     itemType: 2
     triggerTime: 180
-    maxSpawnCount: 50
+    maxSpawnCount: 45
   - category: 1003
     level: 6
     itemType: 2
     triggerTime: 180
-    maxSpawnCount: 50
+    maxSpawnCount: 45
   - category: 1003
     level: 7
     itemType: 2
     triggerTime: 180
-    maxSpawnCount: 50
+    maxSpawnCount: 45
   - category: 1003
     level: 8
     itemType: 2
     triggerTime: 180
-    maxSpawnCount: 50
+    maxSpawnCount: 45
   - category: 5001
     level: 1
     itemType: 2
